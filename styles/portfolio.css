@@ -1,0 +1,13 @@
+body {
+    background-color: #c5cbd1;
+}
+h1 {
+    color: white;
+    font-family: 'Gravitas One', sans-serif;
+    font-weight: bold;
+}
+p {
+    font-family: "Gravitas One", serif;
+    color: white;
+    font-weight: normal;
+}
