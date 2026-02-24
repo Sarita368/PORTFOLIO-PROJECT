@@ -480,6 +480,20 @@ section::after {
     margin: 0 auto;
 }
 
+/* ========== ABOUT CONSTELLATION IMAGE ========== */
+
+.skills-stars-constellation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-constellation {
+    width: 580px; 
+    max-width: 100%;
+    height: auto;
+}
+
 /* ========== REVEAL ANIMATIONS ========== */
 .reveal-hidden {
     opacity: 0;
