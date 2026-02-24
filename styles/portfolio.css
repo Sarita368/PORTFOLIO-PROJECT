@@ -242,6 +242,60 @@ section::after {
     color: var(--text-main);
 }
 
+/* ========== NAVIGATION ========== */
+
+.main-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 30px 8%;
+}
+
+.nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: var(--color-white);
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-dim);
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    transition: var(--transition-fast);
+}
+
+.nav-links a:hover {
+    color: var(--color-white);
+}
+
+.nav-resume {
+    text-decoration: none;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    transition: var(--transition-fast);
+}
+
+.nav-resume:hover {
+    color: var(--color-primary);
+}
+
 /* ========== SCROLL INDICATOR ========== */
 .scroll-indicator {
     position: absolute;
