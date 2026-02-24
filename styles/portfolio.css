@@ -309,6 +309,7 @@ section::after {
     margin-bottom: 40px;
     opacity: 0.9;
     text-transform: uppercase;
+    color: var(--color-primary);
 }
 
 /* ========== TECH STACK / CONSTELLATION ========== */
