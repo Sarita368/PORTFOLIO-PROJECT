@@ -130,7 +130,7 @@ body::after {
 /* ========== SECTIONS ========== */
 section {
     min-height: 10vh;
-    padding: 100px 10%;
+    padding: 100px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -642,8 +642,19 @@ section::after {
 
 /* ========== MEDIA QUERIES ========== */
 @media (max-width: 900px) {
+
     .branding-grid {
         grid-template-columns: 1fr;
         gap: 60px;
     }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .big-a-bg {
+        font-size: 12rem;
+        left: 0;
+    }
+
 }
