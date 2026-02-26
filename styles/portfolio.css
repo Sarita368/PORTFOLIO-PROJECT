@@ -533,6 +533,26 @@ section::after {
     max-width: 1100px;
     margin: 0 auto;
 }
+/* ========== WHO AM I SECTION ========== */
+
+#who-am-i {
+    position: relative;
+}
+
+#who-am-i .about-text {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    max-width: 520px;
+    color: var(--text-dim);
+}
+
+#who-am-i .highlight-line {
+    display: block;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--color-primary);
+    margin: 30px 0;
+}
 
 /* ========== ABOUT CONSTELLATION IMAGE ========== */
 
