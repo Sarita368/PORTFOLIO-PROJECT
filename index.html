@@ -3,11 +3,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <meta
+      name="description"
+      content="Sara's portfolio website showcasing her work as a front-end developer and UI designer. Based in the UK"
+    />
+    <title>Portfolio website - Front-end developer</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Gravitas+One&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Seymour+One&display=swap"
       rel="stylesheet"
@@ -145,40 +153,6 @@
       </section>
 
       <!-- ========================= TECH STACK SECTION ========================= -->
-      <section id="tech-stack">
-        <div class="container">
-          <div class="constellation-wrapper">
-            <!-- Stars -->
-            <div class="star" style="top: 50%; left: 50%">
-              <span class="star-label" style="color: white">Javascript</span>
-            </div>
-            <div class="star" style="top: 20%; left: 20%">
-              <span class="star-label">PYTHON</span>
-            </div>
-            <div class="star" style="top: 15%; left: 50%">
-              <span class="star-label">node.js</span>
-            </div>
-            <div class="star" style="top: 20%; left: 80%">
-              <span class="star-label">Bootstrap</span>
-            </div>
-            <div class="star" style="top: 45%; left: 15%">
-              <span class="star-label">CSS</span>
-            </div>
-            <div class="star" style="top: 45%; left: 85%">
-              <span class="star-label">Typescript</span>
-            </div>
-            <div class="star" style="top: 80%; left: 20%">
-              <span class="star-label">React</span>
-            </div>
-            <div class="star" style="top: 85%; left: 50%">
-              <span class="star-label">Responsive</span>
-            </div>
-            <div class="star" style="top: 65%; left: 10%">
-              <span class="star-label">GIT</span>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <!-- ========================= WORK SECTION ========================= -->
       <section id="work">
@@ -258,13 +232,10 @@
       <!-- ========================= WHO AM I SECTION ========================= -->
       <section id="who-am-i">
         <div class="container">
-          <div class="row">
-            <div class="col-md-6 d-flex flex-column align-items-center">
-              <div class="section-title-wrapper">
-                <h2 class="section-label">WHO AM I ?</h2>
-              </div>
-
-              <div class="bio-content w-100">
+          <div class="row align-items-start">
+            <div class="col-md-6 text-start">
+              <h2 class="section-label">WHO AM I ?</h2>
+              <div class="bio-content">
                 <p class="about-text">
                   My journey into the digital universe began not with a
                   textbook, but with a fascination for what happens behind the
@@ -289,19 +260,22 @@
                 </p>
               </div>
             </div>
-            <div class="col-md-6 d-flex flex-column align-items-center">
+
+            <div class="col-md-6">
+              <h2 class="section-label skills-title">MY SKILLS</h2>
+
               <div class="skills-stars-constellation-container">
                 <img
-                  src="assets/stars-constellation.png"
+                  src="assets/stars-constellation-2.png"
                   class="skills-constellation"
-                  alt="Skills Constellation"
+                  alt="Skills"
                 />
+                <div id="skill-nodes-overlay"></div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
       <!-- ========================= CONTACT SECTION ========================= -->
       <section id="contact">
         <div class="container">
@@ -348,7 +322,8 @@
         </div>
       </section>
     </main>
-
+    <!-- Stars JS -->
+    <script src="javascript/stars.js"></script>
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
